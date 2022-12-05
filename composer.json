@@ -1,0 +1,24 @@
+{
+    "name": "uzulla/phico",
+    "authors": [
+        {
+            "name": "uzulla",
+            "email": "uzulla@himitsukichi.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phico\\": "src/"
+        }
+    },
+    "scripts": {
+        "up": "php -S 127.0.0.1:8080 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
